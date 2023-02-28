@@ -27,37 +27,68 @@ nav {
   justify-content: space-between;
   z-index: 12;
   padding: 2rem 2rem;
-  background-color: red;
+  background-color: transparent;
+  .logo{
+    img{
+      width:100px;
+  }
+    
+  }
   button {
     color: var(--secondary-color);
     font-size: 1.5rem;
-    background-color: wheat;
+    background-color: transparent;
+    color: #1a6136;
     border: none;
     cursor: pointer;
   }
 }
 .strona-glowna {
-  background-color: aqua;
+  
+  .hero{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+  }
   .strona-glowna-text {
-    margin-top: 30vh;
-
+    
+    margin-top: 20vh;
+    color: #1a6136;
     text-align: center;
     border-radius: 0.5rem;
-    max-width: 30rem;
+    max-width: 45rem;
     margin-left: auto;
     margin-right: auto;
     h1 {
       padding: 0.5rem 0.5rem;
-      text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.727);
+      text-shadow: 0px 0px 3px rgba(0, 0, 0, 56%);
+      font-size: 1.2rem;
+      
     }
     h2 {
       font-family: "Open Sans", sans-serif;
       padding: 0.5rem 0.5rem;
-      text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.727);
+  
+      color:white;
+      font-weight: bold;
+      font-size: 2rem;
+      margin-left: auto;
+    margin-right: auto;
+      max-width: max-content;
+      border: solid 1px ;
+      border-radius: 6px;
+      background-color: #1a6136;
     }
     p {
+      margin-left: auto;
+    margin-right: auto;
+      max-width: 28rem;
       padding: 0.5rem 0.5rem;
-      text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.727);
+      text-shadow: 0px 0px 3px rgba(0, 0, 0, 56%);
     }
   }
 }
