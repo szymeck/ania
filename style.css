@@ -11,7 +11,6 @@ body {
 }
 
 section {
-  padding: 4%;
   min-height: 100vh;
   filter: drop-shadow(0px 6px 14px rgba(0, 0, 0, 0.707));
 }
@@ -41,6 +40,9 @@ nav button {
   cursor: pointer;
 }
 
+.strona-glowna {
+  padding: 1%;
+}
 .strona-glowna .hero {
   position: absolute;
   left: 0;
@@ -73,6 +75,7 @@ nav button {
   font-size: 2rem;
   margin-left: auto;
   margin-right: auto;
+  max-width: -webkit-max-content;
   max-width: -moz-max-content;
   max-width: max-content;
   border: solid 1px;
@@ -90,16 +93,36 @@ nav button {
 .o-nas {
   background-color: chartreuse;
 }
-.o-nas .o-nas-top {
+.o-nas .bar1 {
+  position: relative;
+  filter: drop-shadow(0px 6px 14px rgba(0, 0, 0, 0.707));
+}
+.o-nas .bar1 img {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100%;
+  z-index: 1;
+  height: 20%;
+}
+.o-nas .bar1 .bar1-text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(26, 97, 54, 0.8078431373);
+  padding: 30px 80px;
+  border-radius: 6px;
+}
+.o-nas .bar1 .bar1-text h3 {
+  font-size: 40px;
 }
 .o-nas .o-nas-top .o-nas-top-text {
   margin-left: auto;
   margin-right: auto;
   max-width: 60rem;
-}
-.o-nas .o-nas-top .o-nas-top-text h3 {
-  text-align: right;
+  color: white;
 }
 .o-nas .o-nas-grid {
   display: grid;
