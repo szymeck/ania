@@ -9,7 +9,6 @@ body {
   position: relative;
   height: 100%;
   font-family: "Roboto", sans-serif;
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
@@ -20,7 +19,7 @@ button {
 }
 
 header {
-  max-width: 1920px;
+  max-width: 1700px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -45,12 +44,12 @@ nav .links-mobile {
   width: 100px;
 }
 nav .logo img {
-  width: 100px;
+  width: 160px;
   margin-left: auto;
 }
 nav button {
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 1.6rem;
+  font-weight: bold;
   margin: 8px;
   background-color: transparent;
   color: #383838;
@@ -58,8 +57,38 @@ nav button {
   cursor: pointer;
 }
 
+.bar {
+  margin-top: 120px;
+  background: #ffad33;
+  padding: 40px 0;
+  text-align: center;
+  position: relative;
+}
+.bar .elem-8 {
+  position: absolute;
+  left: -42px;
+  bottom: -12px;
+}
+.bar .elem-9 {
+  position: absolute;
+  right: 0;
+  top: 32%;
+}
+.bar .elem-10 {
+  position: absolute;
+  right: 10%;
+  top: 12%;
+}
+.bar .container h2 {
+  font-size: 2.4rem;
+  line-height: 36px;
+  font-weight: 700;
+  color: white;
+}
+
 .strona-glowna {
   margin: 0 2%;
+  padding-top: 40px;
 }
 .strona-glowna .elem-2 {
   position: absolute;
@@ -74,7 +103,7 @@ nav button {
   position: relative;
   margin: 0 auto;
   border-radius: 30px;
-  filter: drop-shadow(0px 6px 14px rgba(0, 0, 0, 0.707));
+  filter: drop-shadow(0px 1px 16px rgba(0, 0, 0, 0.707));
 }
 .strona-glowna .strona-glowna-content .container {
   display: grid;
@@ -98,7 +127,7 @@ nav button {
   font-weight: 500;
   padding: 10px 20px 2px;
   color: white;
-  filter: drop-shadow(0px 2px 15px rgba(0, 0, 0, 0.707));
+  filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.707));
 }
 .strona-glowna .strona-glowna-content .container .col-1 h2 {
   line-height: 70px;
@@ -106,7 +135,7 @@ nav button {
   font-weight: 700;
   padding: 10px 20px 2px;
   color: white;
-  filter: drop-shadow(0px 2px 15px rgba(0, 0, 0, 0.707));
+  filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.707));
 }
 .strona-glowna .strona-glowna-content .container .col-1 p {
   line-height: 20px;
@@ -114,7 +143,7 @@ nav button {
   font-weight: 300;
   padding: 20px 20px 40px;
   color: white;
-  filter: drop-shadow(0px 2px 15px rgba(0, 0, 0, 0.707));
+  filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.707));
 }
 .strona-glowna .strona-glowna-content .container .col-1 .buttons {
   padding: 10px 20px 2px;
@@ -134,14 +163,14 @@ nav button {
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
-  filter: drop-shadow(0px 2px 10px rgba(0, 0, 0, 0.707));
+  filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.707));
 }
 .strona-glowna .strona-glowna-content .container .col-1 .buttons :last-child {
   margin-left: 20px;
 }
 .strona-glowna .strona-glowna-content .col-2 {
   position: relative;
-  margin-right: 20px;
+  margin-right: 60px;
   height: 100%;
 }
 .strona-glowna .strona-glowna-content .col-2 img {
@@ -150,7 +179,7 @@ nav button {
      object-fit: cover;
   height: 100%;
   border-radius: 25px;
-  filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.707));
+  filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.707));
 }
 
 .o-nas {
@@ -172,7 +201,7 @@ nav button {
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
-  filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.707));
+  filter: drop-shadow(0px 1px 6px rgba(0, 0, 0, 0.707));
   border-radius: 25px;
 }
 .o-nas .container-1 .col-1 ::after {
@@ -214,7 +243,7 @@ nav button {
 }
 .o-nas .container-1 .col-2 .col-2-text h5 {
   padding-bottom: 5px;
-  color: #ff9900;
+  color: #ffad33;
   font-weight: 700;
   font-size: 1.25rem;
 }
@@ -265,7 +294,7 @@ nav button {
   list-style-type: none;
 }
 .o-nas .container-1 .col-2 .col-2-list svg {
-  color: #ff9900;
+  color: #ffad33;
   width: 1em;
   margin-right: 6px;
   display: inline-block;
@@ -280,13 +309,19 @@ nav button {
   max-width: 2000px;
   margin-left: auto;
   margin-right: auto;
+  filter: drop-shadow(0px 1px 16px rgba(0, 0, 0, 0.707));
 }
 .o-nas-2 .container-3 {
   width: 100%;
 }
 .o-nas-2 .container-3 .row-1 {
+  background-color: #ff564f;
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+.o-nas-2 .container-3 .row-1 .row-1-item1 {
+  width: 100%;
+  height: 800px;
 }
 .o-nas-2 .container-3 .row-1 .row-1-item1 .row-1-item1-img img {
   width: 100%;
@@ -296,36 +331,42 @@ nav button {
 }
 .o-nas-2 .container-3 .row-1 .row-1-item2 {
   background-color: #ff564f;
-  padding: 50px 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.o-nas-2 .container-3 .row-1 .row-1-item2 .row-1-item2-content {
+  padding: 20px 40px;
   width: 100%;
 }
-.o-nas-2 .container-3 .row-1 .row-1-item2 .row-1-item2-text {
+.o-nas-2 .container-3 .row-1 .row-1-item2 .row-1-item2-content .row-1-item2-text {
   color: white;
 }
-.o-nas-2 .container-3 .row-1 .row-1-item2 .row-1-item2-text h5 {
+.o-nas-2 .container-3 .row-1 .row-1-item2 .row-1-item2-content .row-1-item2-text h5 {
   font-weight: 700;
   padding-bottom: 5px;
   font-size: 18px;
+  color: black;
+  font-size: 20px;
 }
-.o-nas-2 .container-3 .row-1 .row-1-item2 .row-1-item2-text h2 {
+.o-nas-2 .container-3 .row-1 .row-1-item2 .row-1-item2-content .row-1-item2-text h2 {
   font-size: 48px;
   line-height: 56px;
   font-weight: 700;
   padding-bottom: 4px;
 }
-.o-nas-2 .container-3 .row-1 .row-1-item2 .row-1-item2-list .list-item {
+.o-nas-2 .container-3 .row-1 .row-1-item2 .row-1-item2-content .row-1-item2-list .list-item {
   display: flex;
   padding-top: 20px;
 }
-.o-nas-2 .container-3 .row-1 .row-1-item2 .row-1-item2-list .list-item .list-item-text {
+.o-nas-2 .container-3 .row-1 .row-1-item2 .row-1-item2-content .row-1-item2-list .list-item .list-item-text {
   padding-top: 3px;
   color: white;
   padding-left: 20px;
 }
-.o-nas-2 .container-3 .row-1 .row-1-item2 .row-1-item2-list .list-item .list-item-text h5 {
+.o-nas-2 .container-3 .row-1 .row-1-item2 .row-1-item2-content .row-1-item2-list .list-item .list-item-text h5 {
   font-size: 18px;
 }
-.o-nas-2 .container-3 .row-1 .row-1-item2 .row-1-item2-list .list-item .list-item-icon {
+.o-nas-2 .container-3 .row-1 .row-1-item2 .row-1-item2-content .row-1-item2-list .list-item .list-item-icon {
   background: #fff;
   height: 80px;
   width: 80px;
@@ -340,24 +381,17 @@ nav button {
 .o-nas-3 {
   position: relative;
   padding-top: 60px;
-  margin: 20px auto;
-  max-width: 1700px;
 }
 .o-nas-3 .side-img1 {
   position: absolute;
-  right: 0;
+  right: 0px;
   top: 0;
-  z-index: -2;
-}
-.o-nas-3 .side-img2 {
-  position: absolute;
-  left: 0;
-  top: 0;
-  transform: scaleX(-1);
   z-index: -2;
 }
 .o-nas-3 .container-2 {
-  margin: 0 2%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1700px;
 }
 .o-nas-3 .container-2 .row-1 {
   display: flex;
