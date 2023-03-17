@@ -478,74 +478,208 @@ nav button {
   color: #383838;
 }
 
-.zajecia {
-  background-color: coral;
+.onas1 {
+  position: relative;
+  padding-top: 40px;
+  margin: 20px auto;
+  max-width: 1000px;
 }
-.zajecia .zajecia-top {
-  width: 100%;
+.onas1 .onas1-title {
+  margin-left: 40px;
 }
-.zajecia .zajecia-top .zajecia-top-text {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 60rem;
+.onas1 .onas1-title h2 {
+  position: relative;
 }
-.zajecia .zajecia-top .zajecia-top-text h3 {
-  text-align: right;
+.onas1 .onas1-title h2::after {
+  display: block;
+  content: "";
+  width: 140px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  bottom: -10;
+  left: 0;
 }
-.zajecia .zajecia-grid {
-  display: grid;
-  grid-gap: 1rem 1rem;
-  max-width: 60rem;
-  grid-template-columns: 3fr 1fr;
-  margin-left: auto;
-  margin-right: auto;
-  align-items: center;
-  justify-content: center;
-  border-radius: 1rem;
-  padding-top: 2rem;
-}
-.zajecia .zajecia-grid .zajecia-grid-left {
-  display: grid;
-  grid-gap: 1rem 1rem;
-  grid-template-columns: 1fr 1fr;
-}
-.zajecia .zajecia-grid .zajecia-grid-left .item1 {
-  width: 15rem;
-  height: 15rem;
-  background-color: aliceblue;
+.onas1 .onas1-text {
+  margin: 20px 40px;
 }
 
-.galeria {
-  background-color: darkcyan;
+.onas2 {
+  position: relative;
+  margin: 20px auto;
+  max-width: 1600px;
 }
-.galeria .galeria-top {
+.onas2 .onas2-container {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+.onas2 .onas2-container .onas2-item {
+  position: relative;
+  background-color: #1a6136;
+  border-radius: 5px;
+  max-width: 500px;
+  filter: drop-shadow(0px 1px 16px rgba(0, 0, 0, 0.707));
+}
+.onas2 .onas2-container .onas2-item .onas2-item-img {
+  background-color: transparent;
+}
+.onas2 .onas2-container .onas2-item .onas2-item-img img {
   width: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: #ffad33 10px solid;
 }
-.galeria .galeria-top .galeria-top-text {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 60rem;
-}
-.galeria .galeria-top .galeria-top-text h3 {
-  text-align: right;
-}
-.galeria .galeria-wraper .galeria-wraper-top .galeria-wraper-top-text h4 {
+.onas2 .onas2-container .onas2-item .onas2-item-text {
   text-align: center;
+  color: #fff;
+  margin: 25px;
 }
-.galeria .galeria-wraper .galeria-wraper-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 1.5rem;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 70rem;
-}
-.galeria .galeria-wraper .galeria-wraper-grid .item {
-  width: auto;
-  height: 10rem;
-  background-color: aliceblue;
+.onas2 .onas2-container .onas2-item .onas2-item-text h3 {
+  margin: 10px 0;
+  filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.707));
+  font-weight: 600;
 }
 
-.kontakt {
-  background-color: dimgrey;
+.onas3 {
+  position: relative;
+  padding-top: 20px;
+  margin: 20px auto;
+  max-width: 1600px;
+  padding-bottom: 40px;
+}
+.onas3 .onas3-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  margin: 40px;
+  grid-gap: 2rem;
+}
+.onas3 .onas3-container .onas3-text-container .onas3-text {
+  background-color: rgba(26, 97, 54, 0.1921568627);
+  padding: 30px;
+  border-radius: 30px;
+}
+.onas3 .onas3-container .onas3-text-container .onas3-text p {
+  font-size: 17px;
+}
+.onas3 .onas3-container .onas3-text-container .onas3-text p:first-child {
+  margin-bottom: 20px;
+}
+.onas3 .onas3-container .onas3-img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  border-radius: 30px;
+}
+
+.onas4 {
+  background-color: rgba(255, 173, 51, 0.337254902);
+}
+.onas4 .onas4-container {
+  margin: 20px auto;
+  max-width: 1600px;
+}
+.onas4 .onas4-container .onas4-title {
+  position: relative;
+  padding-top: 40px;
+  max-width: 1000px;
+}
+.onas4 .onas4-container .onas4-title .onas4-title-text {
+  margin: 20px 20px;
+}
+.onas4 .onas4-container .onas4-title .onas4-title-text p {
+  margin: 20px 0;
+}
+.onas4 .onas4-container .onas4-title .onas4-title-text h2 {
+  position: relative;
+}
+.onas4 .onas4-container .onas4-title .onas4-title-text h2::after {
+  display: block;
+  content: "";
+  width: 190px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  bottom: -10;
+  left: 0;
+}
+.onas4 .onas4-container .onas4-text {
+  position: relative;
+  margin: 20px auto;
+  padding-bottom: 40px;
+}
+.onas4 .onas4-container .onas4-text p {
+  margin: 20px 20px;
+}
+.onas4 .onas4-container .onas4-text h4 {
+  margin: 20px 20px;
+}
+
+.onas5 .onas5-container {
+  margin: 20px auto;
+  max-width: 1600px;
+}
+.onas5 .onas5-container .onas5-title {
+  position: relative;
+  padding-top: 40px;
+  margin: 20px auto;
+  max-width: 1000px;
+}
+.onas5 .onas5-container .onas5-title .onas5-title-text {
+  margin: 20px 40px;
+}
+.onas5 .onas5-container .onas5-title .onas5-title-text p {
+  margin: 20px 0;
+}
+.onas5 .onas5-container .onas5-title .onas5-title-text h2 {
+  position: relative;
+}
+.onas5 .onas5-container .onas5-title .onas5-title-text h2::after {
+  display: block;
+  content: "";
+  width: 190px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  bottom: -10;
+  left: 0;
+}
+.onas5 .onas5-container .onas5-items {
+  position: relative;
+  padding-top: 40px;
+  margin: 20px auto;
+  max-width: 1000px;
+}
+.onas5 .onas5-container .onas5-items .onas5-item {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  margin-bottom: 20px;
+  background-color: #1a6136;
+  padding: 10px;
+  color: #fff;
+  border-radius: 15px;
+  filter: drop-shadow(0px 1px 6px rgba(0, 0, 0, 0.707));
+}
+.onas5 .onas5-container .onas5-items .onas5-item .onas5-item-text {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.onas5 .onas5-container .onas5-items .onas5-item .onas5-item-text p {
+  filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.707));
+}
+.onas5 .onas5-container .onas5-items .onas5-item .onas5-item-img {
+  margin-right: 10px;
+  background-color: #fff;
+  border-radius: 15px;
+  border: 3px solid #ffad33;
+}
+.onas5 .onas5-container .onas5-items .onas5-item .onas5-item-img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
 }/*# sourceMappingURL=style.css.map */
